@@ -6,6 +6,8 @@ Referência: Livro [ROS Robot Programming (disponível em PDFs)](http://communit
 Abra um terminal. Dica: `Ctrl` `Alt` `T` abre terminais no Ubuntu
 
 
+## Se você não usa o Linux fornecido pelo laboratório, faça as etapas a seguir
+
 Vamos os certificar de que temos alguns softwares essenciais para o Turtlebot 3:
 
     sudo apt install ros-melodic-turtlebot3-msgs ros-melodic-ar-track-alvar ros-melodic-turtlebot3-applications-msgs
@@ -18,6 +20,13 @@ Vamos nos certificar de que já temos os softwares do `Turtlebot` (só precisa s
     git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
     git clone https://github.com/ROBOTIS-GIT/turtlebot3_applications.git  
 
+
+    cd ~/catkin_ws
+    catkin_make
+
+## Se você usa o Linux fornecido pelo laboratório, faça a etapa a seguir
+
+Digite apenas os seguintes comandos:
 
     cd ~/catkin_ws
     catkin_make

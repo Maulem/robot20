@@ -23,7 +23,7 @@ O asterisco marca o ambiente que está sendo usando
 
 Para ativar outro ambiente:
 
-    conda activate <font colore=red>NOME_DO_AMBIENTE</font>
+    conda activate **nome do ambiente**
 
 
 Para criar um environment faça:
@@ -45,7 +45,7 @@ A saída vai ficar assim:
 
 Depois, para mudar para o novo ambiente, faça:
 
-    conda activate <font color=red>python2amb</font>
+    conda activate robotica
 
 No que ao invés de **robotica** você pode usar o nome que quiser.
 
